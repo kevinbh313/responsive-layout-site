@@ -2,26 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Kevin Balderas-Hernandez's Portfolio</title>
+    <title>Kevin Balderas' Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@200&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
 
-    <header>
-      <h1>Kevin Balderas-Hernandez</h1>
-      <ul class="navigation-list">
-        <li>HOME</li>
-        <li>PORTFOLIO</li>
-        <li>CONTACT</li>
-      </ul>
-      <img src="images/responsive-layout-profile.png" alt="avatar picture">
-      <p>Hi! I'm a front-end developer who loves reponsive deisgn and CSS. I recently finished a degree in Web Development at Treehouse and am excited to put all my skills to use!</p>
-    </header>
+    <div class="main-header">
+      <header>
+        <h1>Kevin Balderas</h1>
+        <ul>
+          <li><a href="#top">HOME</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <img src="images/responsive-layout-profile.png" alt="avatar picture" class="main-image">
+        <p>Hi! I'm a front-end developer who loves reponsive deisgn and CSS. I recently finished a degree in Web Development at Treehouse and am excited to put all my skills to use!</p>
+      </header>
+    </div>
 
     <div>
-      <h2>PORTFOLIO</h2>
+      <h2 id="portfolio">PORTFOLIO</h2>
     </div>
 
     <div>
@@ -60,17 +63,16 @@
       <p>Someone can enter in the number they want, and press the big blue button and get the result.</p>
     </div>
 
-    <footer>
-      <h3>CONTACT</h3>
-      <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-      <p>Phone (512) 744-8398</p>
-      <p>Email kevinbalderas51@yahoo.com</p>
-    </footer>
-
-    <hr>
-
-    <p>Kevin Balderas-Hernandez</p>
-    <p>BACK TO TOP</p>
+    <div class="main-footer">
+      <footer>
+        <h3>CONTACT</h3>
+        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone <b>(512) 744-8398</b></p>
+        <p>Email <b>kevinbalderas51@yahoo.com</b></p>
+        <p>Kevin Balderas-Hernandez</p>
+        <p>BACK TO TOP</p>
+      </footer>
+    </div>
 
   </body>
 </html>
