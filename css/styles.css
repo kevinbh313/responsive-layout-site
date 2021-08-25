@@ -10,6 +10,11 @@ h1 {
   font-size: 40px;
 }
 
+.portfolio-container {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
 footer {
   margin-top: 90px;
 }
@@ -20,9 +25,14 @@ ul {
 
 li {
   list-style: none;
-  font-weight: 600;
+  font-weight: 800;
   text-transform: uppercase;
   padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 img {
@@ -31,4 +41,9 @@ img {
 
 .main-image {
   max-width: 75%;
+}
+
+.footer-name, .footer-label {
+  display: inline-block;
+  font-weight: bold;
 }
